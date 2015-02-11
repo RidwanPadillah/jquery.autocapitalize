@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Auto Capitalize</title>
+</head>
+<body>
+<textarea>textarea here, and type here</textarea>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.autocapitalize.js"></script>
+<script type="text/javascript">
+$('textarea').on('keyup', function (event) {
+    $(this).capitalize();
+}).capitalize();
+</script>
+</body>
+</html>
